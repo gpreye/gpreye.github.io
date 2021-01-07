@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ShopBest online store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  </head>
+  <body>
+    <!-- Wrapper -->
+    <div class="wrapper">
+      <!-- Header -->
+      <header>
+        <!-- Container -->
+        <div class="container">
+          <!-- Navigation -->
+          <nav>
+            <!-- Logo -->
+            <a class="nav-brand" href="#">ShopBest</a>
+
+            <!-- Hambuger menu -->
+            <div class="burger" onclick="navSlide()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+            <!-- Nav-Links -->
+            <ul class="nav-links">
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#new">New</a></li>
+              <li><a href="#brand">Brands</a></li>
+            </ul>
+
+              <!-- Cart -->
+              <!-- <div class="cart">
+                <a href="#"
+                  ><img src="logo/shopping-cart.png" /><span>Cart</span></a
+                >
+              </div> -->
+          </nav>
+        </div>
+      </header>
+
+      <!-- Background Section -->
+      <section class="background">
+        <div class="bg-content">
+          <h2>Shop stress-free from home</h2>
+          <h3>We're are ready to help, online or by phone</h3>
+          <p>Shop with an expert</p>
+          <a href="#products">Shop Now</a>
+        </div>
+      </section>
+
+      <!-- Collection Section -->
+      <section class="collection">
+        <div class="collection-box">
+          <div class="collection-content">
+            <img src="images/pic1.jpg" />
+            <div class="caption">
+              <p>Classic collection</p>
+            </div>
+          </div>
+          <div class="collection-content">
+            <img src="images/pic2.jpg" />
+            <div class="caption">
+              <p>Classic collection</p>
+            </div>
+          </div>
+          <div class="collection-content">
+            <img src="images/pic3.jpg" />
+            <div class="caption">
+              <p>Classic collection</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products Section -->
+      <section class="products">
+        <!--Products  -->
+        <div class="products" id="products">
+            <div class="lead">Products</div>
+            <div class="products-links">
+                <a class="active" onclick="pcBox()" href="#pc">Laptops & Computers</a>
+                <a onclick="gameBox()" href="#games">Gaming</a>
+                <a onclick="watchesBox()" href="#watches">Smartwatches</a>
+                <a onclick="headBox()" href="#headphones">Headphones</a>
+                <a onclick="phoneBox()" href="#phones">Phones</a>
+            </div>
+        
+            <!-- Categories -->
+            <div id="pc-box" class="categories pc" id="categories">
+                <!-- Items box 1 -->
+                <div class="items-box-1">
+                    <div class="items">
+                        <img src="images/pc/1.jpg">
+                        <div class="figure">
+                            <p>Asus - 14.0 laptop</p>
+                            <p>$1999.99</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/pc/2.jpg">
+                        <div class="figure">
+                            <p>Lenovo - chromebook flex 3</p>
+                            <p>$219.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/pc/3.jpg">
+                        <div class="figure">
+                            <p>Samsung - 15.6" chromebook</p>
+                            <p>$379.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/pc/4.jpg">
+                        <div class="figure">
+                            <p>Acer - chromebook spin 713</p>
+                            <p>$549.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                </div>
+        
+                <!-- Categories 2 -->
+                <div class="items-box-2">
+                    <!-- Item box 2 -->
+                    <div class="items">
+                        <img src="images/pc/5.jpg">
+                        <div class="figure">
+                            <p>Asus - vivobook 17.3" laptop</p>
+                            <p>$549.000</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/pc/6.jpg">
+                        <div class="figure">
+                            <p>Lenovo - yoga i 15.6</p>
+                            <p>$499.99</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/pc/7.jpg">
+                        <div class="figure">
+                            <p>Microsoft - surface laptop</p>
+                            <p>$799.99</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/pc/8.jpg">
+                        <div class="figure">
+                            <p>Desktop pc &  monitor</p>
+                            <p>$399.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Categories Games -->
+            <div id="games-box" class="categories games" id="categories">
+                <!-- Items box 1 -->
+                <div class="items-box-1">
+                    <div class="items">
+                        <img src="images/games/1.jpg">
+                        <div class="figure">
+                            <p>Rolex watch</p>
+                            <p>$40.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/games/2.jpg">
+                        <div class="figure">
+                            <p>Nike shoe</p>
+                            <p>$70.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/games/3.jpg">
+                        <div class="figure">
+                            <p>Sketch shoe</p>
+                            <p>$30.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/games/4.jpg">
+                        <div class="figure">
+                            <p>loffers shoe</p>
+                            <p>$50.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                </div>
+        
+                <!-- Categories 2 -->
+                <div class="items-box-2">
+                    <!-- Item box 2 -->
+                    <div class="items">
+                        <img src="images/games/5.jpg">
+                        <div class="figure">
+                            <p>Gucci shoe</p>
+                            <p>$20.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/games/6.jpg">
+                        <div class="figure">
+                            <p>Fendi bag</p>
+                            <p>$90.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/games/7.jpg">
+                        <div class="figure">
+                            <p>Balengicia</p>
+                            <p>$45.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/games/8.jpg">
+                        <div class="figure">
+                            <p>Black heels</p>
+                            <p>$10.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Categories Watches -->
+            <div id="watches-box" class="categories watches" id="categories">
+                <!-- Items box 1 -->
+                <div class="items-box-1">
+                    <div class="items">
+                        <img src="images/watches/1.jpg">
+                        <div class="figure">
+                            <p>Rolex watch</p>
+                            <p>$40.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/watches/2.jpg">
+                        <div class="figure">
+                            <p>Nike shoe</p>
+                            <p>$70.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/watches/3.jpg">
+                        <div class="figure">
+                            <p>Sketch shoe</p>
+                            <p>$30.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/watches/4.jpg">
+                        <div class="figure">
+                            <p>loffers shoe</p>
+                            <p>$50.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                </div>
+        
+                <!-- Categories 2 -->
+                <div class="items-box-2">
+                    <!-- Item box 2 -->
+                    <div class="items">
+                        <img src="images/watches/5.jpg">
+                        <div class="figure">
+                            <p>Gucci shoe</p>
+                            <p>$20.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/watches/6.jpg">
+                        <div class="figure">
+                            <p>Fendi bag</p>
+                            <p>$90.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/watches/7.jpg">
+                        <div class="figure">
+                            <p>Balengicia</p>
+                            <p>$45.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/watches/8.jpg">
+                        <div class="figure">
+                            <p>Black heels</p>
+                            <p>$10.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Categories Headphones -->
+            <div id="headphones-box" class="categories headphones" id="categories">
+                <!-- Items box 1 -->
+                <div class="items-box-1">
+                    <div class="items">
+                        <img src="images/headphones/1.jpg">
+                        <div class="figure">
+                            <p>Rolex watch</p>
+                            <p>$40.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/headphones/2.jpg">
+                        <div class="figure">
+                            <p>Nike shoe</p>
+                            <p>$70.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/headphones/3.jpg">
+                        <div class="figure">
+                            <p>Sketch shoe</p>
+                            <p>$30.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/headphones/4.jpg">
+                        <div class="figure">
+                            <p>loffers shoe</p>
+                            <p>$50.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                </div>
+        
+                <!-- Categories 2 -->
+                <div class="items-box-2">
+                    <!-- Item box 2 -->
+                    <div class="items">
+                        <img src="images/headphones/5.jpg">
+                        <div class="figure">
+                            <p>Gucci shoe</p>
+                            <p>$20.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/headphones/6.jpg">
+                        <div class="figure">
+                            <p>Fendi bag</p>
+                            <p>$90.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/headphones/7.jpg">
+                        <div class="figure">
+                            <p>Balengicia</p>
+                            <p>$45.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/headphones/8.jpg">
+                        <div class="figure">
+                            <p>Black heels</p>
+                            <p>$10.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Categories Phones -->
+            <div id="phones-box" class="categories phones" id="categories">
+                <!-- Items box 1 -->
+                <div class="items-box-1">
+                    <div class="items">
+                        <img src="images/phones/1.jpg">
+                        <div class="figure">
+                            <p>Rolex watch</p>
+                            <p>$40.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/phones/8.jpg">
+                        <div class="figure">
+                            <p>Nike shoe</p>
+                            <p>$70.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/phones/3.jpg">
+                        <div class="figure">
+                            <p>Sketch shoe</p>
+                            <p>$30.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/phones/4.jpg">
+                        <div class="figure">
+                            <p>loffers shoe</p>
+                            <p>$50.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                </div>
+        
+                <!-- Categories 2 -->
+                <div class="items-box-2">
+                    <!-- Item box 2 -->
+                    <div class="items">
+                        <img src="images/phones/5.jpg">
+                        <div class="figure">
+                            <p>Gucci shoe</p>
+                            <p>$20.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/phones/6.jpg">
+                        <div class="figure">
+                            <p>Fendi bag</p>
+                            <p>$90.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/phones/7.jpg">
+                        <div class="figure">
+                            <p>Balengicia</p>
+                            <p>$45.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                    <div class="items">
+                        <img src="images/phones/8.jpg">
+                        <div class="figure">
+                            <p>Black heels</p>
+                            <p>$10.00</p>
+                        </div>
+                        <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+        <!-- Info Box -->
+        <div class="info-box">
+            <div class="info-content">
+                <h2>Special offers</h2>
+                <p>Special offers discounts for this week only</p>
+                <a href="#new" class="info-btn">Show now</a>
+            </div>
+        </div>
+
+        <!-- New collection -->
+        <div class="new-container" id="new">
+            <div class="title">
+                <h2>New Arrivals</h2>
+                <p>View all</p>
+            </div>
+        
+            <!-- New-box-1 -->
+            <div class="new-box">
+                <div class="new-content">
+                    <img src="images/new/1.jpg">
+                    <div class="tag">New</div>
+                    <div class="figure">
+                        <p>iphone 11 pro</p>
+                        <p>$55.00</p>
+                    </div>
+                    <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                </div>
+        
+                <div class="new-content">
+                    <img src="images/new/2.jpg">
+                    <div class="tag">New</div>
+                    <div class="figure">
+                        <p>apple watch</p>
+                        <p>$48.00</p>
+                    </div>
+                    <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                </div>
+        
+                <div class="new-content">
+                    <img src="images/new/3.jpg">
+                    <div class="tag">New</div>
+                    <div class="figure">
+                        <p>ipad 5</p>
+                        <p>$67.00</p>
+                    </div>
+                    <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                </div>
+        
+                <div class="new-content">
+                    <img src="images/new/4.jpg">
+                    <div class="tag">New</div>
+                    <div class="figure">
+                        <p>samsung laptop</p>
+                        <p>$99.00</p>
+                    </div>
+                    <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                </div>
+            </div>
+
+            <!-- New-box-2 -->
+            <div class="new-box">
+                <div class="new-content">
+                    <img src="images/new/5.jpg">
+                    <div class="tag">New</div>
+                    <div class="figure">
+                        <p>laptop speaker</p>
+                        <p>$55.00</p>
+                    </div>
+                    <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                </div>
+            
+                <div class="new-content">
+                    <img src="images/new/6.jpg">
+                    <div class="tag">New</div>
+                    <div class="figure">
+                        <p>bluetooth headphone</p>
+                        <p>$48.00</p>
+                    </div>
+                    <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                </div>
+            
+                <div class="new-content">
+                    <img src="images/new/7.jpg">
+                    <div class="tag">New</div>
+                    <div class="figure">
+                        <p>iphone 12</p>
+                        <p>$67.00</p>
+                    </div>
+                    <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                </div>
+            
+                <div class="new-content">
+                    <img src="images/new/8.jpg">
+                    <div class="tag">New</div>
+                    <div class="figure">
+                        <p>sony ps5</p>
+                        <p>$99.00</p>
+                    </div>
+                    <a class="product-btn" href="shipping_details.html">Shop Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Subscribe -->
+        <div class="subscribe" id="subscribe">
+            <div class="title">Newsletter</div>
+            <div class="sub-form">
+                <form>
+                    <input type="email" placeholder="Enter email" name="email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Brand -->
+        <div class="brand" id="brand">
+            <div class="brand-box">
+                <img src="logo/acer.png">
+                <img src="logo/apple.png">
+                <img src="logo/asus.png">
+                <img src="logo/dell.png">
+                <img src="logo/hp.png">
+                <img src="logo/samsung.png">
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-box">
+                <div class="social-link">
+                    <h3>ShopBest</h3>
+                    <p>Products store</p>
+                    <h4>Follow us</h4>
+                    <div class="media-link">
+                        <a href="#"><img src="logo/facebook.png"></a>
+                        <a href="#"><img src="logo/twitter.png"></a>
+                        <a href="#"><img src="logo/instagram.png"></a>
+                        <a href="#"><img src="logo/google-plus.png"></a>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <a href="#">Terms & uses</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Brands</a>
+                    <a href="">Contact</a>
+                </div>
+
+                <div class="contact">
+                    <span><img src="logo/map-marker-icon.png"><p>Friday otuoyo compound, old road sapele<br>Delta state</p></span>
+                    <span><img src="logo/phone.png">
+                        <p>+1 (929) 531-7829</p>
+                    </span>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2020 All right reserved</p>
+        </div>
+<!-- Wrapper End -->
+    </div>
+
+        <script defer src="js/main.js"></script>
+  </body>
+</html>
